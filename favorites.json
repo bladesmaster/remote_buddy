@@ -1,0 +1,33 @@
+{
+   "0":{
+      "service":"webradio",
+      "type":"webradio",
+      "title":"Galei Zahal",
+      "artist":"",
+      "album":"",
+      "albumart":"http://cdn-radiotime-logos.tunein.com/s24906q.png",
+      "icon":"",
+      "uri":"http://opml.radiotime.com/Tune.ashx?id=s24906"
+   },
+   "1":{
+      "service":"webradio",
+      "type":"webradio",
+      "title":"GLGLZ",
+      "artist":"",
+      "album":"",
+      "albumart":"http://cdn-profiles.tunein.com/s68320/images/logoq.jpg?t=636307",
+      "icon":"",
+      "uri":"http://opml.radiotime.com/Tune.ashx?id=s68320"
+   },
+   "2":{
+      "service": "webradio",
+      "type": "webradio",
+      "title": "KAN BET",
+      "artist": "",
+      "album": "",
+      "albumart": "http://cdn-profiles.tunein.com/s24889/images/logoq.jpg?t=155853",
+      "icon": "",
+      "uri": "http://opml.radiotime.com/Tune.ashx?id=s24889"
+       }
+}
+

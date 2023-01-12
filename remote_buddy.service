@@ -1,0 +1,15 @@
+[Unit]
+Description = Bluetooth and USB remotes support
+
+[Service]
+ExecStart=/home/volumio/remote_buddy.sh
+Restart=always
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=RBUDDY
+User=volumio
+Group=volumio
+Environment=NODE_ENV=production
+
+[Install]
+WantedBy=multi-user.target
