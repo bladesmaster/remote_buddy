@@ -40,6 +40,10 @@ pip3 install watchdog
 Copy file remote_buddy.py  to /home/volumio and give execution permission:
  chmod +x remote_buddy.py
 
+Under sudo create file /lib/systemd/system/remote_buddy.service
+sudo systemctl enable remote_buddy
+sudo systemctl start remote_buddy
+
 ## Prepare list of favorites that will be assigned to hot keys
 
 Prepare your file /home/volumio/favorites.json (the example is given)
@@ -57,9 +61,6 @@ After you'll prepare your favorites.json, please verify that it is proper
  json file To do so, use this service: 
 https://jsonformatter.curiousconcept.com/
 
-Under sudo create file /lib/systemd/system/remote_buddy.service
-sudo systemctl enable remote_buddy
-sudo systemctl start remote_buddy
 
 
 
