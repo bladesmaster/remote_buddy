@@ -2,12 +2,12 @@
 Volumio service for bluetooth and USB remotes support
 
 This service is intended for Volumio boxes and provides universal support
- of various bluetooth based remotess and USB based devices
+ of various bluetooth based remotes and USB based devices
 (remotes with USB dongle, volume knobs, multimedia keyboards e.t.c)
 
 ## Main features
 
-1. It is universal, must work for all such devices without any code changes
+1. It is universal, must work for all such devices without any code changes.
    IR based remotes can work via Flirc USB dongle (https://flirc.tv)  
 
 2. Multiple connected HID devices are supported, each of them will work
@@ -40,7 +40,7 @@ pip3 install watchdog
 Copy file remote_buddy.py  to /home/volumio and give execution permission:
  chmod +x remote_buddy.py
 
-## Prepare list of favorites that will ge assigned to hot keys
+## Prepare list of favorites that will be assigned to hot keys
 
 Prepare your file /home/volumio/favorites.json (the example is given)
 To do so, enter your volumio station with ssh and issue requests:
