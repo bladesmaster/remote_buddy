@@ -41,7 +41,9 @@ Copy file remote_buddy.py  to /home/volumio and give execution permission:
  chmod +x remote_buddy.py
 
 Under sudo create file /lib/systemd/system/remote_buddy.service
+
 sudo systemctl enable remote_buddy
+
 sudo systemctl start remote_buddy
 
 ## Prepare list of favorites that will be assigned to hot keys
