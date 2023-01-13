@@ -28,19 +28,30 @@ This service requires some additional packages to be installed
 Enter your volumio box with ssh and do following:
 
 sudo apt install python3-pip
+
 sudo apt install python3-evdev
+
 sudo apt install python3-pyudev
+
 pip3 install janus
+
 pip3 install watchdog
 
 Copy file remote_buddy.py  to /home/volumio and give execution permission:
  chmod +x remote_buddy.py
+
+## Prepare list of favorites that will ge assigned to hot keys
 
 Prepare your file /home/volumio/favorites.json (the example is given)
 To do so, enter your volumio station with ssh and issue requests:
 
 curl http://localhost:3000/api/v1/search?query=KEYWORD_TO_SEARCH
 This will bring the description of your favorite song/radio station e.t.c.
+
+More simple way is to play what you would like to assign to key and issue
+request:
+
+curl http://localhost:3000/api/v1/getQueue
 
 After you'll prepare your favorites.json, please verify that it is proper
  json file To do so, use this service: 
