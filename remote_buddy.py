@@ -5,7 +5,7 @@ This is a service for Volumio, that supports
 bluetooth and USB dongle based remote controls,
 airmouses, volume knobs, multimedia keyboards e.t.c.
 
-Autor: Vitaly Margolin (vitaly_mar@yahoo.com)
+Author: Vitaly Margolin (vitaly_mar@yahoo.com)
 
 
 """
